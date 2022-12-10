@@ -1,0 +1,91 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 138, 158);
+}
+
+
+
+.titulo{
+    font-size: 32px;
+    font-weight: 800;
+    color: blueviolet;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.edad{
+    font-size: 48px;
+    font-weight: 800;
+    color: blueviolet;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cuerpo{
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.carta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dibujiros{
+    
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: 15px;
+}
+
+.cuerpo,.carta_texto{
+    width: 450px;
+    text-align: justify;
+}
+.carta_texto{
+    margin-bottom:45px;
+}
+.mensaje{
+    margin-bottom:65px;
+    font-size: 24px;
+}
+
+.container_dibujiro{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dibujiros_img{
+    height: 50px;
+    border-radius: 15px;
+    transition: transform .2s; 
+}
+.dibujiros_img:hover{
+    transform: scale(3)
+}
+
+.mensaje_final{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hb{
+    margin-top: 30px;
+    font-size: 24px;
+}
